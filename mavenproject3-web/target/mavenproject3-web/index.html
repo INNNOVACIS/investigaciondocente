@@ -1,0 +1,23 @@
+
+
+<html>
+<head>
+    <title>RESTFul - CRUD</title>
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+</head>
+<body>
+    <form>
+        <label>ID: </label>
+        <input id="inpId"/>
+        <label>NOMBRE: </label>
+        <input id="inpNombre"/>
+        <input id="btnRegistrar" type="button" value="Registrar"/>
+    </form>
+    <script>
+        $("#btnRegistrar").click(function(){
+            console.log("ID :: ", $("#inpId").val());
+            console.log("Nombre :: ", $("#inpNombre").val());
+        });
+    </script>
+</body>
+</html>
